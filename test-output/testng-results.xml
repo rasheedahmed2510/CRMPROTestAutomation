@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80956" started-at="2019-07-19T07:07:00Z" finished-at="2019-07-19T07:08:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80956" started-at="2019-07-19T07:07:00Z" finished-at="2019-07-19T07:08:20Z">
+      <class name="com.qa.crmpro.testcases.loginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.crmpro.testcases.loginPageTest@57fffcd7]" name="setUp" is-config="true" duration-ms="16545" started-at="2019-07-19T07:07:00Z" finished-at="2019-07-19T07:07:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToCRMPROApplicationTest()[pri:0, instance:com.qa.crmpro.testcases.loginPageTest@57fffcd7]" name="loginToCRMPROApplicationTest" duration-ms="4105" started-at="2019-07-19T07:07:16Z" finished-at="2019-07-19T07:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToCRMPROApplicationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.crmpro.testcases.loginPageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="8005" started-at="2019-07-19T07:07:20Z" finished-at="2019-07-19T07:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.crmpro.testcases.loginPageTest@57fffcd7]" name="setUp" is-config="true" duration-ms="17604" started-at="2019-07-19T07:07:28Z" finished-at="2019-07-19T07:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCRMPROLogoTest()[pri:0, instance:com.qa.crmpro.testcases.loginPageTest@57fffcd7]" name="validateCRMPROLogoTest" duration-ms="163" started-at="2019-07-19T07:07:46Z" finished-at="2019-07-19T07:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCRMPROLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.crmpro.testcases.loginPageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="8192" started-at="2019-07-19T07:07:46Z" finished-at="2019-07-19T07:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.crmpro.testcases.loginPageTest@57fffcd7]" name="setUp" is-config="true" duration-ms="18331" started-at="2019-07-19T07:07:54Z" finished-at="2019-07-19T07:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCRMPROWebPageTitleTest()[pri:0, instance:com.qa.crmpro.testcases.loginPageTest@57fffcd7]" name="validateCRMPROWebPageTitleTest" duration-ms="24" started-at="2019-07-19T07:08:13Z" finished-at="2019-07-19T07:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCRMPROWebPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.crmpro.testcases.loginPageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="7938" started-at="2019-07-19T07:08:13Z" finished-at="2019-07-19T07:08:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.crmpro.testcases.loginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

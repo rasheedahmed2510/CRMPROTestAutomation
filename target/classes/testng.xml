@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CRMPRO Application Automation Test Suite"  >
+    
+  <listeners>
+  	<listener class-name="com.qa.crmpro.ExtentReportListener.ExtentReportNG" />
+  </listeners>
+    
+  <test name="CRMPRO Application TestCases" >
+    <classes>
+       <class name="com.qa.crmpro.testcases.loginPageTest"/>
+       <!-- <class name="com.qa.crmpro.testcases.homePageTest"/> -->
+       <!-- <class name="com.qa.crmpro.testcases.contactsPageTest"/> -->
+       <!-- <class name="com.qa.crmpro.testcases.newContactPageTest"/> -->
+    </classes>
+  </test>
+</suite>

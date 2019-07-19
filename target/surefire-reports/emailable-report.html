@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">9</td><td class="num attn">1</td><td class="num attn">2</td><td class="num">345,992</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.qa.crmpro.testcases.homePageTest</td><td><a href="#m0">clickOnNewContactsLinkInHomePageTest</a></td><td rowspan="1">1563478600279</td><td rowspan="1">3156</td></tr><tr class="failedeven"><td><a href="#m1">validateHomePageTitleTest</a></td><td rowspan="1">1563478654546</td><td rowspan="1">52</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.qa.crmpro.testcases.newContactPageTest</td><td><a href="#m2">validateCreateNewContact</a></td><td rowspan="1">1563478787474</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.qa.crmpro.testcases.contactsPageTest</td><td><a href="#m3">getContactsPageTitle</a></td><td rowspan="1">1563478483036</td><td rowspan="1">12</td></tr><tr class="passedeven"><td><a href="#m4">selectContactsTest</a></td><td rowspan="1">1563478513571</td><td rowspan="1">244</td></tr><tr class="passedeven"><td><a href="#m5">validateContactsPageHeaderNameDisplayed</a></td><td rowspan="1">1563478564602</td><td rowspan="1">117</td></tr><tr class="passedodd"><td rowspan="3">com.qa.crmpro.testcases.homePageTest</td><td><a href="#m6">validateCRMPROHomePageLogoTest</a></td><td rowspan="1">1563478627274</td><td rowspan="1">3742</td></tr><tr class="passedodd"><td><a href="#m7">verifyContactsLinkTest</a></td><td rowspan="1">1563478678458</td><td rowspan="1">5223</td></tr><tr class="passedodd"><td><a href="#m8">verifyUserNameTest</a></td><td rowspan="1">1563478706822</td><td rowspan="1">2689</td></tr><tr class="passedeven"><td rowspan="3">com.qa.crmpro.testcases.loginPageTest</td><td><a href="#m9">loginToCRMPROApplicationTest</a></td><td rowspan="1">1563478732060</td><td rowspan="1">3966</td></tr><tr class="passedeven"><td><a href="#m10">validateCRMPROLogoTest</a></td><td rowspan="1">1563478757981</td><td rowspan="1">188</td></tr><tr class="passedeven"><td><a href="#m11">validateCRMPROWebPageTitleTest</a></td><td rowspan="1">1563478782457</td><td rowspan="1">32</td></tr></tbody>
+</table>
+<h2>Command line test</h2><h3 id="m0">com.qa.crmpro.testcases.homePageTest#clickOnNewContactsLinkInHomePageTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementNotInteractableException: Element &lt;a href=&quot;https://www.crmpro.com/system/index.cfm?action=contact&amp;sub=load&amp;edit=1&quot;&gt; could not be scrolled into view
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;HIBAIL55565&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 68.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20190705220548, moz:geckodriverVersion: 0.24.0, moz:headless: false, moz:processID: 10656, moz:profile: C:\Users\inrahmed\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.1, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0b4c6887-57ce-4b87-b97e-f2d1201a3b71
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.qa.crmpro.pages.homePage.clickOnNewContactsLink(homePage.java:72)
+	at com.qa.crmpro.testcases.homePageTest.clickOnNewContactsLinkInHomePageTest(homePageTest.java:69)
+... Removed 47 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.qa.crmpro.testcases.homePageTest#validateHomePageTitleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Homepage title not matched expected [CRMPRO] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
+	at com.qa.crmpro.testcases.homePageTest.validateHomePageTitleTest(homePageTest.java:44)
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.qa.crmpro.testcases.newContactPageTest#validateCreateNewContact</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+	at com.qa.crmpro.testcases.newContactPageTest.getCRMContactDetailsTestData(newContactPageTest.java:64)
+	... 32 more
+... Removed 40 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.qa.crmpro.testcases.contactsPageTest#getContactsPageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.qa.crmpro.testcases.contactsPageTest#selectContactsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.qa.crmpro.testcases.contactsPageTest#validateContactsPageHeaderNameDisplayed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.qa.crmpro.testcases.homePageTest#validateCRMPROHomePageLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.qa.crmpro.testcases.homePageTest#verifyContactsLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.qa.crmpro.testcases.homePageTest#verifyUserNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.qa.crmpro.testcases.loginPageTest#loginToCRMPROApplicationTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.qa.crmpro.testcases.loginPageTest#validateCRMPROLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.qa.crmpro.testcases.loginPageTest#validateCRMPROWebPageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
