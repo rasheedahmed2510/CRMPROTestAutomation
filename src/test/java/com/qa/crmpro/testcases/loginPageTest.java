@@ -29,7 +29,6 @@ public class loginPageTest extends testBase {
 	
 	@BeforeMethod
 	public void setUp(){
-		PropertyConfigurator.configure("log4j.properties");
 		initialization();
 		log.info("launched the browser");
 		lp= new loginPage();
