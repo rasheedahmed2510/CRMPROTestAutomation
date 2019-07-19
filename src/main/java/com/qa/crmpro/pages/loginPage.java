@@ -9,7 +9,7 @@ import com.qa.crmpro.testbase.testBase;
 public class loginPage extends testBase{
 	
 	//Capture all the Object Repositories or Page Objects
-	@FindBy(name="username")
+	@FindBy(name="usernam")
 	WebElement un;
 	
 	@FindBy(name="password")

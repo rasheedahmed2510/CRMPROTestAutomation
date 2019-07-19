@@ -1,33 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [CRMPRO Application Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.crmpro.ExtentReportListener.ExtentReportNG"/>
+  </listeners>
   <test thread-count="5" name="CRMPRO Application TestCases(failed)">
     <classes>
       <class name="com.qa.crmpro.testcases.loginPageTest">
         <methods>
-          <include name="validateCRMPROWebPageTitleTest"/>
+          <include name="loginToCRMPROApplicationTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.qa.crmpro.testcases.loginPageTest -->
-      <class name="com.qa.crmpro.testcases.newContactPageTest">
-        <methods>
-          <include name="validateCreateNewContact"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="validateIsContactsInfoHeaderNameIsDisplayed"/>
-          <include name="getNewContactPageTitle"/>
-        </methods>
-      </class> <!-- com.qa.crmpro.testcases.newContactPageTest -->
-      <class name="com.qa.crmpro.testcases.contactsPageTest">
-        <methods>
-          <include name="validateContactsPageHeaderNameDisplayed"/>
-          <include name="selectContactsTest"/>
-          <include name="getContactsPageTitle"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.qa.crmpro.testcases.contactsPageTest -->
     </classes>
   </test> <!-- CRMPRO Application TestCases(failed) -->
 </suite> <!-- Failed suite [CRMPRO Application Automation Test Suite] -->

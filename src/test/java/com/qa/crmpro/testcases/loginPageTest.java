@@ -1,12 +1,13 @@
 package com.qa.crmpro.testcases;
 
-import org.apache.log4j.PropertyConfigurator;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.log4testng.Logger;
 
+import com.qa.crmpro.analyzer.RetryAnalyzer;
 import com.qa.crmpro.pages.homePage;
 import com.qa.crmpro.pages.loginPage;
 import com.qa.crmpro.testbase.testBase;
@@ -21,7 +22,6 @@ public class loginPageTest extends testBase {
 	boolean flag= true;
 	Logger log= Logger.getLogger(loginPageTest.class);
 	
-	
 	//create a constructor to access the base class properties
 	public loginPageTest(){
 		super(); 
@@ -35,7 +35,7 @@ public class loginPageTest extends testBase {
 		util= new testUtil();
 	}
 	
-	@Test
+	@Test(retryAnalyzer= RetryAnalyzer.class)
 	public void loginToCRMPROApplicationTest(){
 		log.info("**********************starting test case****************************************");
 		log.info("**********************login to crmpro app****************************************");

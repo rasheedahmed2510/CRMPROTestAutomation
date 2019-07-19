@@ -1,8 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="CRMPRO Application Automation Test Suite"  >
-    
+<suite name="CRMPRO Application Automation Test Suite" >
+  
   <listeners>
-  	<listener class-name="com.qa.crmpro.ExtentReportListener.ExtentReportNG" />
+    <listener class-name="com.qa.crmpro.ExtentReportListener.ExtentReportNG" />
   </listeners>
     
   <test name="CRMPRO Application TestCases" >
